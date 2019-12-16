@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests in tests.py" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9acaaa-58d9-40b6-8f1c-ef7276afefdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -87,9 +90,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Python/Python38" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RunManager" selected="Python tests.Unittests in tests.py">
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,8 +138,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/polls/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in tests.py" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.settings" />
       </list>
@@ -166,7 +186,9 @@
       <workItem from="1576464466533" duration="878000" />
       <workItem from="1576465382261" duration="946000" />
       <workItem from="1576466351438" duration="12869000" />
-      <workItem from="1576486692307" duration="4525000" />
+      <workItem from="1576486692307" duration="8875000" />
+      <workItem from="1576504302288" duration="1997000" />
+      <workItem from="1576506337259" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1576475839101</created>
@@ -189,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576476796728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1576499330474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576499330474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,30 +237,30 @@
       <screen x="0" y="0" width="1707" height="986" />
     </state>
     <state x="928" y="168" key="#settings/0.0.1707.986@0.0.1707.986" timestamp="1576464712949" />
-    <state x="634" y="126" key="CommitChangelistDialog2" timestamp="1576476794489">
+    <state x="634" y="126" key="CommitChangelistDialog2" timestamp="1576499328069">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state x="634" y="126" key="CommitChangelistDialog2/0.0.1707.986@0.0.1707.986" timestamp="1576476794489" />
+    <state x="634" y="126" key="CommitChangelistDialog2/0.0.1707.986@0.0.1707.986" timestamp="1576499328069" />
     <state x="1112" y="249" key="FileChooserDialogImpl" timestamp="1576477495934">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
     <state x="1112" y="249" key="FileChooserDialogImpl/0.0.1707.986@0.0.1707.986" timestamp="1576477495934" />
-    <state width="1663" height="325" key="GridCell.Tab.0.bottom" timestamp="1576466327825">
+    <state width="1342" height="325" key="GridCell.Tab.0.bottom" timestamp="1576504146359">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state width="1663" height="325" key="GridCell.Tab.0.bottom/0.0.1707.986@0.0.1707.986" timestamp="1576466327825" />
-    <state width="1663" height="325" key="GridCell.Tab.0.center" timestamp="1576466327825">
+    <state width="1342" height="325" key="GridCell.Tab.0.bottom/0.0.1707.986@0.0.1707.986" timestamp="1576504146359" />
+    <state width="1342" height="325" key="GridCell.Tab.0.center" timestamp="1576504146359">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state width="1663" height="325" key="GridCell.Tab.0.center/0.0.1707.986@0.0.1707.986" timestamp="1576466327825" />
-    <state width="1663" height="325" key="GridCell.Tab.0.left" timestamp="1576466327825">
+    <state width="1342" height="325" key="GridCell.Tab.0.center/0.0.1707.986@0.0.1707.986" timestamp="1576504146359" />
+    <state width="1342" height="325" key="GridCell.Tab.0.left" timestamp="1576504146358">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state width="1663" height="325" key="GridCell.Tab.0.left/0.0.1707.986@0.0.1707.986" timestamp="1576466327825" />
-    <state width="1663" height="325" key="GridCell.Tab.0.right" timestamp="1576466327825">
+    <state width="1342" height="325" key="GridCell.Tab.0.left/0.0.1707.986@0.0.1707.986" timestamp="1576504146358" />
+    <state width="1342" height="325" key="GridCell.Tab.0.right" timestamp="1576504146359">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state width="1663" height="325" key="GridCell.Tab.0.right/0.0.1707.986@0.0.1707.986" timestamp="1576466327825" />
+    <state width="1342" height="325" key="GridCell.Tab.0.right/0.0.1707.986@0.0.1707.986" timestamp="1576504146359" />
     <state width="1663" height="325" key="GridCell.Tab.1.bottom" timestamp="1576466327825">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
@@ -256,10 +285,10 @@
       <screen x="0" y="0" width="1707" height="986" />
     </state>
     <state x="474" y="270" key="SettingsEditor/0.0.1707.986@0.0.1707.986" timestamp="1576466324253" />
-    <state x="600" y="217" key="Vcs.Push.Dialog.v2" timestamp="1576486485136">
+    <state x="600" y="217" key="Vcs.Push.Dialog.v2" timestamp="1576499388400">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
-    <state x="600" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.986@0.0.1707.986" timestamp="1576486485136" />
+    <state x="600" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.986@0.0.1707.986" timestamp="1576499388400" />
     <state x="550" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1576486712011">
       <screen x="0" y="0" width="1707" height="986" />
     </state>
@@ -271,5 +300,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/website$tests.coverage" NAME="tests Coverage Results" MODIFIED="1576466046263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/music" />
+    <SUITE FILE_PATH="coverage/website$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1576503442967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
